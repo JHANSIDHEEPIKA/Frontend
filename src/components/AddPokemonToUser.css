@@ -1,0 +1,48 @@
+
+.add-pokemon-to-user {
+    max-width: 400px;
+    
+    padding: 40px;
+    background-color: yellow;
+    margin-top: 180px ;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+  }
+  
+  .add-pokemon-to-user h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

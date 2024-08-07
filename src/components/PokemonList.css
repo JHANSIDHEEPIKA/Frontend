@@ -1,0 +1,104 @@
+body {
+  margin-top: 0px;
+  
+}
+
+.pokemon-list-container {
+  display: flex;
+  margin-top: 180px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.pokemon-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pokemon-list th, .pokemon-list td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.pokemon-list th {
+  background-color: #f0f0f0;
+}
+
+.pokemon-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.delete-btn {
+  background-color: #1d0202;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #010101;
+}
+
+.edit-btn {
+  background-color: #ff0090;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #cc00b1;
+}
+
+.delete-all-btn {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px ;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.delete-all-btn:hover {
+  background-color: #cc0000;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.modal-content button {
+  margin-top: 10px;
+}
